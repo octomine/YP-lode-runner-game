@@ -8,5 +8,5 @@ export default defineConfig({
   },
   plugins: [react()],
   root: '.',
-  base: '/YP-lode-runner-game',
+  base: '/yp-lode-runner-game',
 })
