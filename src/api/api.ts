@@ -1,6 +1,6 @@
 import axios from 'axios'
 
 export const apiFile = axios.create({
-  baseURL: '',
+  baseURL: 'YP-lode-runner-game',
   responseType: 'blob',
 })
