@@ -47,7 +47,6 @@ export const buildEdge = ({ x, y, action }: { x: number, y: number, action: Runn
 }
 
 export const buildGraph = (init: Array<PositionType> = []): PathGraphType => {
-  const iTime = new Date().getTime();
   let x = 0;
   let y = 0;
   let cnt = 0;

@@ -2,7 +2,6 @@ import { PathStepType, PathGraphType } from './types';
 import { RunnerAction } from '../constants';
 
 export const find = (start: string, end: string, graph: PathGraphType): Array<PathStepType> => {
-  const iTime = new Date().getTime();
   if (graph[start] && graph[end]) {
     // TODO: сделать нормальный тип
     const visited: Record<string, any> = {};

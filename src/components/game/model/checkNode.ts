@@ -1,4 +1,4 @@
-import { PositionType, GraphVerticeType, NodeType } from "./types";
+import { PositionType, NodeType } from "./types";
 import { RunnerAction, Tile, OBSTACLE, FLOOR } from "../constants";
 import { getTileAt, checkFall, worldToMap } from "../utils";
 
