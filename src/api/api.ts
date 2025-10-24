@@ -1,4 +1,4 @@
-import axios/* , { AxiosInstance, CreateAxiosDefaults } */ from 'axios'
+import axios from 'axios'
 
 export const apiFile = axios.create({
   baseURL: '',
